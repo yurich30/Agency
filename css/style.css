@@ -1,3 +1,29 @@
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body {
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+        /* HEADER */
+.header__top {
+    background-color: #303030;
+}
+.header__btn {
+    float: right;
+}
