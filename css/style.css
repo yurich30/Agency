@@ -107,7 +107,7 @@ body {
     display: none;
 }
 .slider{
-    /* background-image: url(../images/fon.png); */
+    background-image: url(../images/slider_fon.png);
     background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
