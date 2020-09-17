@@ -197,19 +197,22 @@ body {
 .services{
     padding: 50px 0px 30px;
 }
-.services__top{
+.services__top,
+.news__top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 .services__title-box,
-.form__title-box{
+.form__title-box,
+.news__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 .services__title-box::before,
-.form__title-box::before{
+.form__title-box::before,
+.news__title-box::before{
     content:"";
     position: absolute;
     width: 100px;
@@ -219,7 +222,8 @@ body {
     top: 11px;
 }
 .services__title,
-.form__title{
+.form__title,
+.news__title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -228,10 +232,12 @@ body {
     margin-bottom: 10px;
 }
 .services__text,
-.form__text{
+.form__text,
+.news__text{
 letter-spacing: 0.1px;
 }
-.services__btn > a{
+.services__btn > a,
+.news__btn > a{
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
@@ -485,5 +491,8 @@ letter-spacing: 0.1px;
     line-height: 24px;
     color: #d3d2d2;
     letter-spacing: 0.1px;
+}
+.news{
+    padding: 55px 0px 110px;
 }
 
